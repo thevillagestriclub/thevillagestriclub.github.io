@@ -437,3 +437,13 @@ a:hover {
 #contact {
   scroll-margin-top: 90px;   /* adjust this number if needed */
 }
+
+/* Make the Running section columns line up in the middle */
+#running .hero-grid {
+  align-items: center;
+}
+
+#running .run-note {
+  margin-top: 0;          /* removes any extra top spacing */
+  height: fit-content;    /* keeps the box only as tall as its content */
+}
