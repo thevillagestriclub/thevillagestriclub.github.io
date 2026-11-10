@@ -431,3 +431,9 @@ a:hover {
     text-align: center;
   }
 }
+/* Make section titles land just below the sticky header */
+#schedule,
+#races,
+#contact {
+  scroll-margin-top: 90px;   /* adjust this number if needed */
+}
