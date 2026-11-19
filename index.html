@@ -8,6 +8,23 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="icon" href="trilogo1.jpg" type="image/jpeg">
 </head>
+
+<script>
+  // Simple slideshow - changes every 7 seconds
+  const slides = document.querySelectorAll('.slideshow .slide');
+  let current = 0;
+
+  function nextSlide() {
+    slides[current].classList.remove('active');
+    current = (current + 1) % slides.length;
+    slides[current].classList.add('active');
+  }
+
+  // Change image every 7 seconds (7000 milliseconds)
+  setInterval(nextSlide, 7000);
+</script>
+
+  
 <body>
   <header class="site-header">
     <div class="container header-inner">
