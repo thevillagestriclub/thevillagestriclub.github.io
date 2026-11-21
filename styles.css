@@ -437,6 +437,8 @@ a:hover {
 /* Make section titles land just below the sticky header */
 #schedule,
 #races,
+#aboutus,
+#join,
 #contact {
   scroll-margin-top: 90px;   /* adjust this number if needed */
 }
