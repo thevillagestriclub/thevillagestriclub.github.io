@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Join! · The Villages Triathlon Club</title>
+  <meta name="description" content="Learn about The Villages Triathlon Club and how to become a member.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="trilogo1.jpg" type="image/jpeg">
+  <style>
+    /* Page-specific styles for Join page */
+    .join-page {
+      padding: 2.5rem 0 4rem;
+    }
+
+    .join-page h1 {
+      margin: 0 0 0.5rem;
+      color: var(--green-dark);
+      font-size: 2rem;
+    }
+
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+      margin: 2rem 0 3rem;
+      align-items: start;
+    }
+
+    .about-card {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.5rem;
+      box-shadow: var(--shadow);
+    }
+
+    .about-card h3 {
+      margin: 0 0 0.8rem;
+      color: var(--green);
+      font-size: 1.15rem;
+    }
+
+    .about-card ul {
+      margin: 0.5rem 0 0;
+      padding-left: 1.2rem;
+    }
+
+    .about-card li {
+      margin-bottom: 0.4rem;
+    }
+
+    .benefits-card {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.75rem;
+      box-shadow: var(--shadow);
+      margin-bottom: 2rem;
+    }
+
+    .benefits-card h3 {
+      margin: 0 0 1rem;
+      color: var(--green-dark);
+    }
+
+    .benefits-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .benefits-list li {
+      padding: 0.55rem 0;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: flex-start;
+      gap: 0.6rem;
+    }
+
+    .benefits-list li:last-child {
+      border-bottom: none;
+    }
+
+    .benefits-list li::before {
+      content: "✓";
+      color: var(--green);
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+
+    .how-to-join {
+      background: var(--sand);
+      border-radius: var(--radius);
+      padding: 1.75rem;
+      margin-bottom: 2rem;
+    }
+
+    .how-to-join h3 {
+      margin: 0 0 1rem;
+      color: var(--green-dark);
+    }
+
+    .how-to-join ol {
+      margin: 0;
+      padding-left: 1.3rem;
+    }
+
+    .how-to-join li {
+      margin-bottom: 0.6rem;
+    }
+
+    .cta-box {
+      background: var(--green-dark);
+      color: #fff;
+      border-radius: var(--radius);
+      padding: 1.75rem;
+      text-align: center;
+    }
+
+    .cta-box a {
+      color: #fff;
+      font-weight: 600;
+    }
+
+    .cta-box .btn {
+      background: #fff;
+      color: var(--green-dark) !important;
+      margin-top: 1rem;
+    }
+
+    .cta-box .btn:hover {
+      background: #f0f0f0;
+    }
+
+    @media (max-width: 700px) {
+      .about-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo-link">
+        <img src="trilogo1.jpg" alt="The Villages Triathlon Club logo" class="logo" width="64" height="64">
+      </a>
+      <nav class="main-nav">
+        <a href="index.html#schedule">Training</a>
+        <a href="index.html#races">Races</a>
+        <a href="join.html">Join!</a>
+        <a href="index.html#contact">Contact</a>
+        <a href="https://www.facebook.com/groups/670058983139397/" target="_blank" rel="noopener" title="Join us on Facebook">
+          <img src="facebook.jfif" alt="Facebook" width="22" height="22" style="display:block; border-radius:4px;">
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="join-page">
+      <div class="container">
+
+        <!-- ========== ABOUT US ========== -->
+        <h1>About Us</h1>
+        <p class="section-note">
+          The Villages Triathlon Club provides a network of information for training and racing activities 
+          in a friendly and supportive environment.
+        </p>
+
+        <div class="about-grid">
+          <div class="about-card">
+            <h3>Who We Welcome</h3>
+            <p>Membership is open to new and returning athletes, and first-timers who would like to learn and prepare for the multi-sport challenge.</p>
+            <p style="margin-top:0.8rem;"><strong>Flexible:</strong> Want to focus on just one sport (or two)? No problem. Train for <em>your</em> goals.</p>
+          </div>
+
+          <div class="about-card">
+            <h3>What We Offer</h3>
+            <ul>
+              <li>Open-water and pool swims</li>
+              <li>Group bike rides</li>
+              <li>Fitness training</li>
+              <li>Local &amp; destination race opportunities</li>
+              <li>Monthly meetings &amp; mini-clinics</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="about-card" style="margin-bottom: 3rem;">
+          <h3>Athlete Profiles We Support</h3>
+          <ul style="display:grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 0.5rem 1.5rem; list-style: none; padding-left: 0;">
+            <li>• Beginners</li>
+            <li>• Two-sport (Swim-Bike or Run-Bike-Run)</li>
+            <li>• Sprint / Olympic distance</li>
+            <li>• Half &amp; Full Ironman distance</li>
+          </ul>
+        </div>
+
+        <!-- ========== JOIN! ========== -->
+        <h1>Join!</h1>
+        <p class="section-note">Become part of a supportive triathlon community in The Villages.</p>
+
+        <div class="benefits-card">
+          <h3>Adult – 1 Year Membership Benefits</h3>
+          <ul class="benefits-list">
+            <li>Variety of group training options</li>
+            <li>Support &amp; camaraderie</li>
+            <li>Monthly Meetings including mini-clinics</li>
+            <li>Club emails and member-only Facebook page</li>
+            <li>Race discounts &amp; partnerships with local businesses</li>
+            <li>Represent The Villages with TVTC tri kits and gear</li>
+          </ul>
+        </div>
+
+        <div class="how-to-join">
+          <h3>How to Join</h3>
+          <ol>
+            <li>Come try a workout or attend a monthly meeting — no pressure.</li>
+            <li>Contact <strong>Kelly Vannett</strong> (New Member Communications) at <a href="tel:+16163185855">(616) 318-5855</a>.</li>
+            <li>Join our <a href="https://www.facebook.com/groups/670058983139397/" target="_blank" rel="noopener">Facebook group</a> and get on the club email list.</li>
+          </ol>
+        </div>
+
+        <div class="cta-box">
+          <p style="margin:0 0 0.5rem; font-size:1.15rem;">Ready to get started?</p>
+          <p style="margin:0; opacity:0.9;">Reach out to Kelly or come to any training session.</p>
+          <a href="https://www.facebook.com/groups/670058983139397/" target="_blank" rel="noopener" class="btn">
+            Visit us on Facebook
+          </a>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>The Villages Triathlon Club · Florida</p>
+    </div>
+  </footer>
+</body>
+</html>
